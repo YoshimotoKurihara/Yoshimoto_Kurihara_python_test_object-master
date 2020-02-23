@@ -18,8 +18,8 @@ for line in f:
 f.close()
 
 def bubble_sort(x):
-    for k in range(len(index) - 1 ):
-        for j in range(len(index) - k - 1 ):
+    for k in range(len(index) - 1):
+        for j in range(len(index) - k - 1):
             if index[j] > index[j + 1]:
                 index[j], index[j + 1] = index[j + 1], index[j]
                 character[j], character[j + 1] = character[j + 1], character[j]
