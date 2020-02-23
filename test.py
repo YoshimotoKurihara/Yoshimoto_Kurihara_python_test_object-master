@@ -28,11 +28,8 @@ def bubble_sort(x):
 
 index,character=bubble_sort(index)
 
-#print(index)
-#print(character)
-
 output=""
-#print(a[-1])
+
 for k in range(lines - 1):
     if int(a[-1]) % int(index[k])  == 0:
         output += character[k]
